@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+}
+
+img{
+    border-radius: 50%;
+    height: 3rem;
+}
+
+:root{
+  
+    --clr-mod-violet: hsl(263, 55%, 52%);
+    --clr-very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --clr-very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --clr-white: hsl(0, 0%, 100%);
+
+   
+    --neutral-light-gray: hsl(0, 0%, 81%);
+    --neutral-light-grayish-blue: hsl(210, 46%, 95%);
+
+    
+    --ff-primary: Barlow Semi Condensed;
+
+    
+    --fw-light:600;
+    --fw-lighter: 500;
+
+    
+    --fs-normal: 0.813rem;
+}
+
+body{
+    font-family: var(--ff-primary);
+    font-size: var(--fs-normal);
+    font-weight: var(--fw-light);
+    color: var(--clr-white);
+    padding: 1rem;
+    line-height: 1.5;
+}
